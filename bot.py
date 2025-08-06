@@ -16,10 +16,10 @@ VERSION = "2.1.1"
 with open("config/config.json") as cfg:
     config = json.load(cfg)
 
-token        = config["token"]
-bot_name     = config["bot_name"]
+token        = config[.env.TOKEN]
+bot_name     = config["DriftMC • CORE"]
 bot_avatar   = config["bot_avatar"]
-prefix       = config["command_prefix"]
+prefix       = config["%"]
 log_file     = config["log_file"]
 log_messages = config["log_messages"]
 log_commands = config["log_commands"]
